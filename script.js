@@ -36,8 +36,6 @@ function shop() {
    document.getElementById("shop").style.color = "rgb(1, 190, 190)"
    document.getElementById("home").style.color = "black"
    document.getElementById("contact").style.color="black";
-
-
 }
 
 
