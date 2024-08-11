@@ -4,7 +4,11 @@
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background-color: #eeeeee;
+    background-image: url('./images/background\ image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 nav{
     display: flex;
@@ -54,11 +58,14 @@ nav ul{
     list-style: none;
 }
 .mainPage{
-    display: flex;
-    justify-content: space-around;
+    padding-left: 100px;
+    text-align: left;
 }
 .mainPage .text{
     margin-top: 123px;
+    text-align: left;
+    padding-left: 0;
+    max-width: 600px;
 }
 .text button:hover{
     border: 3px solid rgb(4, 168, 168);
@@ -70,19 +77,23 @@ nav ul{
 }
 .text h1{
     font-size: 54px;
+    margin-top: 10px;
 }
 .mainPage img{
    margin-top: -44px;
    
 }
 .heads{
-    color: rgb(2, 131, 131);
+    color: rgb(190, 235, 191);
 }
 .text p{
-    margin-top: 22px;
+    margin-top: 10px;
+    max-width: 75dvh;
+    color: beige;
 }
 .text h2{
-    color: rgb(63, 63, 63);
+    margin-top: 20px;
+    color: rgb(238, 244, 240);
 }
 .text button{
     width: 140px;
@@ -109,6 +120,7 @@ nav ul{
     justify-content: center;
     padding: 22px;
 }
+
 .card .crd {
     width: 300px;
     height: 500px;
@@ -323,31 +335,7 @@ nav ul{
     margin-top: 11px;
 }
 
-/* FullPage */
 
-.fullPage{
-    
-    display: flex;
-    justify-content: center;
-    display: none;
-    margin-top: 22px;
-}
-.fullPage .cartText{
-    padding: 22px;
-    margin-top: 33px;
-}
-.cartText p{
-    margin-top: 11px;
-}
-.cartText .btn button{
-    width: 140px;
-    height: 40px;
-    background: rgb(247, 133, 2);
-    color: white;
-    border: none;
-    font-size: 22px;
-    margin-top: 22px;
-}
 .btn button:hover{
     background-color: rgb(253, 173, 25);
     cursor: pointer;
